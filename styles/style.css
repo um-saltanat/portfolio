@@ -1,0 +1,57 @@
+body {
+    background-image: url(/images/background.avif);
+    
+}
+
+h1 {
+    color: rgb(100, 96, 96);
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    background-color: rgba(211, 238, 233, 0.479);
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li:hover:not(.active){
+    background-color: grey;
+}
+
+li {
+    display: inline;
+    padding: 0.4em;
+}
+
+ul {
+    background-color: rgba(0, 0, 0, 0.863);
+    color: rgb(241, 239, 239);
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FBFCF8;
+}
+ 
+.item {
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    width: 40%; 
+    height: auto; 
+    display: block;
+}
+
+.resume {
+    font-size: 1.3em;
+}
